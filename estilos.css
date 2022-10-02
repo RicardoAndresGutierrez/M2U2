@@ -1,4 +1,28 @@
-#contenedor {
+#contenedor1 {
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    box-sizing: border-box;
+}
+
+#contenedor2 {
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#contenedor3 {
     background-color: aliceblue;
     margin: 0 auto;
     border: 3px solid black;
